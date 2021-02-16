@@ -93,7 +93,7 @@ div.Raketcell {
   color: rgb(28, 5, 114);
 }
 #rakettext1 {
-  background-image: url(/мое/images/zemlyi.png);
+  background-image: url(../images/zemlyi.png);
   background-repeat: no-repeat;
 }
 #positionraket {
