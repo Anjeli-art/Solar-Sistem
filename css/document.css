@@ -1,0 +1,319 @@
+body {
+  margin: 0px;
+  font-family: "Jura", sans-serif;
+}
+#fondocument {
+  background-image: url(/мое/images/fondocument.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.textdocument {
+  padding: 20px;
+  column-width: 300px;
+  column-gap: 30px;
+}
+.otstup {
+  margin-top: 250px;
+}
+/*ракета на странице документации*/
+.positionraketmini {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 60px;
+}
+.raketamini {
+  position: absolute;
+}
+.firemini {
+  position: absolute;
+  display: none;
+  margin-top: 100px;
+  margin-left: 23px;
+}
+.raketamini:hover ~ .firemini {
+  display: block;
+}
+/*страница с тестированием*/
+.block_row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.block_item {
+  max-width: 440px;
+  padding: 20px;
+  font-size: 80%;
+  margin: 10px;
+  position: relative;
+}
+#first {
+  align-self: flex-end;
+  padding-top: 180px;
+  font-family: "Press Start 2P", cursive;
+  line-height: 1.8em;
+  margin: 10px;
+}
+#sekond {
+  border: black solid 2px;
+  border-radius: 30px;
+  margin: 10px;
+}
+#thethird {
+  border: rgb(0, 0, 0) solid 2px;
+  border-radius: 30px;
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+  color: rgb(37, 37, 39);
+}
+/*блок с правильным ответом */
+#vinner {
+  height: 30px;
+  width: 30px;
+  background-image: url(/мое/images/yes.png);
+  position: absolute;
+  display: none;
+  left: 5px;
+}
+#clickme {
+  cursor: pointer;
+}
+#hider {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider:checked + #vinner {
+  display: block;
+}
+#vinner1 {
+  height: 30px;
+  width: 30px;
+  background-image: url(/мое/images/yes.png);
+  position: absolute;
+  display: none;
+  left: 5px;
+}
+#clickme1 {
+  cursor: pointer;
+}
+#hider1 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider1:checked + #vinner1 {
+  display: block;
+}
+#vinner2 {
+  height: 30px;
+  width: 30px;
+  background-image: url(/мое/images/yes.png);
+  position: absolute;
+  display: none;
+  left: 5px;
+}
+#clickme2 {
+  cursor: pointer;
+}
+#hider2 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider2:checked + #vinner2 {
+  display: block;
+}
+#vinner3 {
+  height: 30px;
+  width: 30px;
+  background-image: url(/мое/images/yes.png);
+  position: absolute;
+  display: none;
+  left: 5px;
+}
+#clickme3 {
+  cursor: pointer;
+}
+#hider3 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider3:checked + #vinner3 {
+  display: block;
+}
+#vinner4 {
+  height: 30px;
+  width: 30px;
+  background-image: url(/мое/images/yes.png);
+  position: absolute;
+  display: none;
+  left: 5px;
+}
+#clickme4 {
+  cursor: pointer;
+}
+#hider4 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider4:checked + #vinner4 {
+  display: block;
+}
+#vinner5 {
+  height: 30px;
+  width: 30px;
+  background-image: url(/мое/images/yes.png);
+  position: absolute;
+  display: none;
+  left: 5px;
+}
+#clickme5 {
+  cursor: pointer;
+}
+#hider5 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider5:checked + #vinner5 {
+  display: block;
+}
+#vinner6 {
+  height: 30px;
+  width: 30px;
+  background-image: url(/мое/images/yes.png);
+  position: absolute;
+  display: none;
+  left: 5px;
+}
+#clickme6 {
+  cursor: pointer;
+}
+#hider6 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider6:checked + #vinner6 {
+  display: block;
+}
+#vinner7 {
+  height: 30px;
+  width: 30px;
+  background-image: url(/мое/images/yes.png);
+  position: absolute;
+  display: none;
+  left: 5px;
+}
+#clickme7 {
+  cursor: pointer;
+}
+#hider7 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider7:checked + #vinner7 {
+  display: block;
+}
+#vinner8 {
+  height: 30px;
+  width: 30px;
+  background-image: url(/мое/images/yes.png);
+  position: absolute;
+  display: none;
+  left: 5px;
+}
+#clickme8 {
+  cursor: pointer;
+}
+#hider8 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider8:checked + #vinner8 {
+  display: block;
+}
+#vinner9 {
+  height: 30px;
+  width: 30px;
+  background-image: url(/мое/images/yes.png);
+  position: absolute;
+  display: none;
+  left: 5px;
+}
+#clickme9 {
+  cursor: pointer;
+}
+#hider9 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider9:checked + #vinner9 {
+  display: block;
+}
+#vinner10 {
+  height: 30px;
+  width: 30px;
+  background-image: url(/мое/images/yes.png);
+  position: absolute;
+  display: none;
+  left: 5px;
+}
+#clickme10 {
+  cursor: pointer;
+}
+#hider10 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider10:checked + #vinner10 {
+  display: block;
+}
+#vinner11 {
+  height: 30px;
+  width: 30px;
+  background-image: url(/мое/images/yes.png);
+  position: absolute;
+  display: none;
+  left: 5px;
+}
+#clickme11 {
+  cursor: pointer;
+}
+#hider11 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider11:checked + #vinner11 {
+  display: block;
+}
+#vinner12 {
+  height: 30px;
+  width: 30px;
+  background-image: url(/мое/images/yes.png);
+  position: absolute;
+  display: none;
+  left: 5px;
+}
+#clickme12 {
+  cursor: pointer;
+}
+#hider12 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider12:checked + #vinner12 {
+  display: block;
+}

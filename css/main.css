@@ -1,0 +1,231 @@
+body {
+  background-image: url(/мое/images/12.png);
+  background-size: 100%;
+  font-size: 120%;
+  margin: 0px;
+  font-family: "Jura", sans-serif;
+}
+#container {
+  max-width: 100%;
+  margin: 0px auto;
+}
+
+#osnovnoe {
+  margin: 30px;
+  padding: 15px;
+}
+#asteroidu {
+  margin: 30px;
+  padding: 15px;
+}
+#transn {
+  margin: 30px;
+  padding: 15px;
+}
+header {
+  height: 250px;
+}
+header h1 {
+  font-size: 700%;
+  text-align: center;
+  text-shadow: 0 2px 0 #eee;
+  border-radius: 30px;
+  border-color: rgb(181, 251, 253);
+  border-style: solid;
+  padding-bottom: 230px;
+  margin: 10px;
+}
+@media (max-width: 1400px) {
+  #container header h1 {
+    border: none;
+    font-size: 600%;
+    padding-bottom: 200px;
+  }
+}
+@media (max-width: 900px) {
+  #container header h1 {
+    font-size: 300%;
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 400px) {
+  #container header h1 {
+    font-size: 200%;
+    padding-bottom: 50px;
+  }
+}
+h1,
+p {
+  color: rgb(181, 251, 253);
+}
+h1 {
+  text-shadow: 0 1px 0 #eee;
+}
+@media (max-width: 400px) {
+  #container h1 {
+    font-size: 200%;
+  }
+}
+/*таблица для ракеты*/
+@media (max-width: 1000px) {
+  #container div.rakettable {
+    display: none;
+  }
+}
+div.rakettable {
+  display: table;
+  margin: 20px;
+  padding-bottom: 100px;
+}
+div.RaketRow {
+  display: table-row;
+}
+div.Raketcell {
+  display: table-cell;
+  padding: 20px;
+}
+#rakettext {
+  width: 30%;
+  font-family: "Press Start 2P", cursive;
+}
+#rakettext h1,
+#rakettext p {
+  color: rgb(28, 5, 114);
+}
+#rakettext1 {
+  background-image: url(/мое/images/zemlyi.png);
+  background-repeat: no-repeat;
+}
+#positionraket {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 550px;
+}
+#raketa {
+  position: absolute;
+}
+#fire {
+  margin-top: 300px;
+  margin-left: 70px;
+  position: absolute;
+  display: none;
+}
+#raketa:hover ~ #fire {
+  display: block;
+}
+
+/*таблица с интересными фактами*/
+div.tableContainer {
+  display: table;
+  margin: 20px;
+}
+div.tableRow {
+  display: table-row;
+}
+.blocktext,
+.blockimage {
+  display: table-cell;
+  padding: 20px;
+}
+.blockimage {
+  width: 30%;
+}
+@media (max-width: 1000px) {
+  #container div.blockimage {
+    display: none;
+  }
+}
+.blocktext {
+  border-radius: 30px;
+  border-color: rgb(181, 251, 253);
+  border-style: solid;
+  margin: 3px;
+}
+.k {
+  position: absolute;
+  transition: margin 8s;
+}
+.k:hover {
+  margin: 70px;
+}
+
+/*таблица со навигацией на планеты и*/
+@media (max-width: 1200px) {
+  #container div.tableplanet {
+    display: none;
+  }
+}
+.tableplanet {
+  display: table;
+  width: 90%;
+  margin-left: 30px;
+}
+.rowplanet {
+  display: table-row;
+}
+.thisplanet {
+  padding: 3px;
+}
+.thisplanet {
+  display: table-cell;
+  position: relative;
+  transition: transform 2s;
+}
+.thisplanet:hover {
+  transform: scale(1.5);
+}
+.thisaster:hover {
+  transform: scale(1.5);
+}
+/*анимация астеройды и пояс койпера*/
+.thisaster,
+.thiskoi {
+  display: table-cell;
+  position: relative;
+  transition: transform 8s;
+}
+
+.thiskoi:hover {
+  transform: rotate(360deg);
+}
+.thisaster:hover {
+  transform: rotate(360deg);
+}
+/*блоки с описанием планет*/
+.planet {
+  margin: 20px;
+}
+/*блоки с маленькой ракетой для описания планет*/
+.positionraketmini {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 60px;
+}
+.raketamini {
+  position: absolute;
+}
+.firemini {
+  margin-top: 100px;
+  margin-left: 23px;
+  position: absolute;
+  display: none;
+}
+.raketamini:hover ~ .firemini {
+  display: block;
+}
+.gigtext {
+  font-size: 400%;
+}
+@media (max-width: 400px) {
+  #container .gigtext {
+    font-size: 200%;
+  }
+}
+footer {
+  text-align: center;
+  padding-top: 150px;
+}
