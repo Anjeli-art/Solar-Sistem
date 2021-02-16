@@ -13,11 +13,11 @@ body {
 }
 @media (max-width: 1350px) {
   #container div#fon {
-    background-image: url(/мое/images/fon2.png);
+    background-image: url(../images/fon2.png);
   }
 }
 #fon {
-  background-image: url(/мое/images/fon.png);
+  background-image: url(../images/fon.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
@@ -129,7 +129,7 @@ p {
 }
 @keyframes slidein {
   from {
-    background-image: url(/мое/images/dialog1.png);
+    background-image: url(../images/dialog1.png);
     width: 205px;
     height: 205px;
     position: absolute;
@@ -153,7 +153,7 @@ p {
   }
 
   to {
-    background-image: url(/мое/images/dialog3.png);
+    background-image: url(../images/dialog3.png);
     width: 205px;
     height: 205px;
     position: absolute;
@@ -173,7 +173,7 @@ p {
     display: none;
   }
   to {
-    background-image: url(/мое/images/dialog5.png);
+    background-image: url(../images/dialog5.png);
     width: 205px;
     height: 205px;
     position: absolute;
@@ -203,7 +203,7 @@ p {
   }
 
   to {
-    background-image: url(/мое/images/dialog2.png);
+    background-image: url(../images/dialog2.png);
     width: 205px;
     height: 205px;
     position: absolute;
@@ -224,7 +224,7 @@ p {
   }
 
   to {
-    background-image: url(/мое/images/dialog4.png);
+    background-image: url(../images/dialog4.png);
     width: 205px;
     height: 205px;
     position: absolute;
