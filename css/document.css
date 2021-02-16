@@ -3,7 +3,7 @@ body {
   font-family: "Jura", sans-serif;
 }
 #fondocument {
-  background-image: url(/мое/images/fondocument.png);
+  background-image: url(../images/fondocument.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -73,7 +73,7 @@ a {
 #vinner {
   height: 30px;
   width: 30px;
-  background-image: url(/мое/images/yes.png);
+  background-image: url(../images/yes.png);
   position: absolute;
   display: none;
   left: 5px;
@@ -92,7 +92,7 @@ a {
 #vinner1 {
   height: 30px;
   width: 30px;
-  background-image: url(/мое/images/yes.png);
+  background-image: url(../images/yes.png);
   position: absolute;
   display: none;
   left: 5px;
@@ -111,7 +111,7 @@ a {
 #vinner2 {
   height: 30px;
   width: 30px;
-  background-image: url(/мое/images/yes.png);
+  background-image: url(../images/yes.png);
   position: absolute;
   display: none;
   left: 5px;
@@ -130,7 +130,7 @@ a {
 #vinner3 {
   height: 30px;
   width: 30px;
-  background-image: url(/мое/images/yes.png);
+  background-image: url(../images/yes.png);
   position: absolute;
   display: none;
   left: 5px;
@@ -149,7 +149,7 @@ a {
 #vinner4 {
   height: 30px;
   width: 30px;
-  background-image: url(/мое/images/yes.png);
+  background-image: url(../images/yes.png);
   position: absolute;
   display: none;
   left: 5px;
@@ -168,7 +168,7 @@ a {
 #vinner5 {
   height: 30px;
   width: 30px;
-  background-image: url(/мое/images/yes.png);
+  background-image: url(../images/yes.png);
   position: absolute;
   display: none;
   left: 5px;
@@ -187,7 +187,7 @@ a {
 #vinner6 {
   height: 30px;
   width: 30px;
-  background-image: url(/мое/images/yes.png);
+  background-image: url(../images/yes.png);
   position: absolute;
   display: none;
   left: 5px;
@@ -206,7 +206,7 @@ a {
 #vinner7 {
   height: 30px;
   width: 30px;
-  background-image: url(/мое/images/yes.png);
+  background-image: url(../images/yes.png);
   position: absolute;
   display: none;
   left: 5px;
@@ -225,7 +225,7 @@ a {
 #vinner8 {
   height: 30px;
   width: 30px;
-  background-image: url(/мое/images/yes.png);
+  background-image: url(../images/yes.png);
   position: absolute;
   display: none;
   left: 5px;
@@ -244,7 +244,7 @@ a {
 #vinner9 {
   height: 30px;
   width: 30px;
-  background-image: url(/мое/images/yes.png);
+  background-image: url(../images/yes.png);
   position: absolute;
   display: none;
   left: 5px;
@@ -263,7 +263,7 @@ a {
 #vinner10 {
   height: 30px;
   width: 30px;
-  background-image: url(/мое/images/yes.png);
+  background-image: url(../images/yes.png);
   position: absolute;
   display: none;
   left: 5px;
@@ -282,7 +282,7 @@ a {
 #vinner11 {
   height: 30px;
   width: 30px;
-  background-image: url(/мое/images/yes.png);
+  background-image: url(../images/yes.png);
   position: absolute;
   display: none;
   left: 5px;
@@ -301,7 +301,7 @@ a {
 #vinner12 {
   height: 30px;
   width: 30px;
-  background-image: url(/мое/images/yes.png);
+  background-image: url(../images/yes.png);
   position: absolute;
   display: none;
   left: 5px;
