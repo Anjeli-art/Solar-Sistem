@@ -1,1 +1,0 @@
-# Solary-Sistem
